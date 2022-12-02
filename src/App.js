@@ -2,7 +2,7 @@ import React  from 'react';
 import Header from "./components/Header";
 import MainPage from "./pages/MainPage";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {QueryClient, QueryClientProvider, useQuery} from "@tanstack/react-query";
+import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
 

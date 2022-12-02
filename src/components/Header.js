@@ -1,10 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import {NavLink, useNavigate} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import React from "react";
-
-
-const BASE_API_URL = process.env.REACT_APP_BASE_API_URL;
 
 
 export default function Header() {
